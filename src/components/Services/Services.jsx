@@ -3,7 +3,7 @@ import "./Services.css";
 import HeartEmoji from "../../img/heartemoji.png";
 import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
-import Card from "../Card/card";
+import Card from "../Card/Card";
 import Resume from "./Resume.pdf";
 import { themeContext } from "../../Context";
 import { useContext } from "react";
