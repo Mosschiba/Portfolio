@@ -1,0 +1,132 @@
+.intro{
+    display: flex;
+    height: 77vh;
+    margin-top: 6rem;
+}
+.i-left{
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+}
+.i-name{
+    display: flex;
+    flex-direction: column;
+}
+.i-name>:nth-child(1){
+    color: var(--black);
+    font-weight: bold;
+    font-size: 3rem;
+}
+.i-name>:nth-child(2){
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 3rem;
+}
+.i-name>:nth-child(3){
+    font-weight: 100;
+    font-size: 14px;
+    color: var(--gray);
+   
+}
+.i-button{
+    width: 8rem;
+    height: 2rem;
+}
+  
+.i-icons{
+    gap: 0rem;
+    margin-top: 3rem;
+    display: flex;
+}
+.i-icons>*{
+    transform: scale(0.5);
+}
+.i-icons>*:hover{
+    cursor: pointer;
+}
+
+.i-right{
+    flex: 1;
+    position: relative;
+}
+.i-right>*{
+    position: absolute;
+    z-index: 1;
+}
+.i-right:nth-child(1){
+    transform: scale(0.68);
+    left: -15%;
+    top: -9%
+}
+.i-right:nth-child(2){
+    top: -4.6rem;
+    left: -3rem;
+    transform: scale(0.67);
+}
+.islam{
+    top: -12rem;
+    right: 2rem;   
+    transform: scale(0.89); 
+   
+}
+.glasses{
+    transform: scale(0.6);
+    left: -30%;
+    top: -25%;
+    border-radius: 50%;
+    padding: 0;
+}
+.blur{
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: #edd0ff;
+    filter: blur(72px);
+    top: -18%;
+    left: 70%;
+    z-index: -9;
+}
+@media screen and (max-width: 480px) {
+    .intro{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10rem;
+        height: 35rem;
+        
+    }
+    .i-left{
+        width: 100%;
+        margin-bottom: 10rem;
+       
+    }
+    .i-right{
+        transform: scale(0.7);
+      
+    }
+    .i-icons{
+        margin-top: 0.2rem;
+        margin: 0 auto;
+    }   
+    .i-button{
+        width: 100%;
+    }  
+     .islam{
+        left: 2rem
+     }
+     .glasses{
+         top: -8rem
+      }
+    .crown{
+        margin-left: 4rem
+    }
+    .thumb{
+         margin-top: 350px;
+         margin-left: 4rem;
+    }
+}
+        
+         
+
